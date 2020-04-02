@@ -1,0 +1,18 @@
+Every Solution 
+
+- CRUD အကုန်ပါမယ်
+  အသေးဆုံး entity ကစပြီး တကယ်သုံးရမယ့် big entity အထိ အကုန် CRUD ရမယ်။ သုံးမယ်ဆို data စဖြည့်ပြီး သုံးရုံပဲ။  အဲ့ဒီတော့ ဘာလိုမလဲ။ သေချာတာက backend မှာ CURD ကတော့ model နဲ့ endpoint(controller) မှာ ရေးထားရုံပဲ။ နောက်ပိုင်းကျရင်တော့ server template engine တစ်ခုသုံးပြီး view ကိုပါ တစ်ခါတည်း render လုပ်ပေးလိုက်တာ ကောင်းမယ်။ Frontend မှာက   သက်ဆိုင်ရာ entity အတွက် Model, Model Collection, table မှာ ပြမယ်ဆို row view, ‌နောက် New /  Edit Form အတွက် form view ရှိမယ်။ ဒီလောက်ပဲ။ နောက်ထပ်ထည့်ရမှာက data table နဲ့ file export  ။
+
+Backend
+-  Model : CRUD
+-  Controller : Endpoint
+
+Forntend
+-  Model : Datastructure
+-  Collection : Model Collection
+-  View : Edit, Row and others
+
+Backend ပိုင်းမှာ ဖတ်စရာက JWT နဲ့ Middleware, File Upload
+Frontend ပိုင်းမှာက Modal, Form element, Table ဒါပါပဲ။
+
+နောက်မှ လိုအပ်တာ ထပ်ပေါင်းဉီးမယ်
